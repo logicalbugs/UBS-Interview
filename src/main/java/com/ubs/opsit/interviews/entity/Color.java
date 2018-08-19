@@ -14,6 +14,7 @@ public enum Color {
 	return colorCode;
     }
 
+    @Override
     public String toString() {
 	return colorCode;
     }

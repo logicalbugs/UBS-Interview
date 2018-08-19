@@ -68,9 +68,10 @@ public class BerlinClock {
 
     @Override
     public String toString() {
-	return getSecondsLamp().toString() + "\n" + getFiveHoursRow().toString()
-		+ "\n" + getOneHourRow().toString() + "\n"
-		+ getFiveMinutesRow().toString() + "\n"
+	return getSecondsLamp().toString() + "\r\n"
+		+ getFiveHoursRow().toString() + "\r\n"
+		+ getOneHourRow().toString() + "\r\n"
+		+ getFiveMinutesRow().toString() + "\r\n"
 		+ getOneMinuteRow().toString();
     }
 }
